@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ejerciciosm4.ejercicio2.Home2Activity">
+
+    <TextView
+        android:id="@+id/txTitulo"
+        android:layout_marginTop="20dp"
+        android:text="Ejercicio 2, módulo 4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btFrame"
+        android:layout_marginTop="30dp"
+        android:text="Frame Layout"
+        android:backgroundTint="@android:color/holo_orange_light"
+        app:layout_constraintTop_toTopOf="@id/txTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btLinear"
+        android:layout_marginTop="30dp"
+        android:text="Linear Layout"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toBottomOf="@id/btFrame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btRelative"
+        android:layout_marginTop="30dp"
+        android:text="Relative Layout"
+        android:backgroundTint="@android:color/holo_green_dark"
+        app:layout_constraintTop_toBottomOf="@id/btLinear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btConstraint"
+        android:layout_marginTop="30dp"
+        android:text="Constraint Layout"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        app:layout_constraintTop_toBottomOf="@id/btRelative"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btComponent"
+        android:layout_marginTop="30dp"
+        android:text="Componentes adicionales"
+        android:backgroundTint="@android:color/holo_red_dark"
+        app:layout_constraintTop_toBottomOf="@id/btConstraint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btRecycler"
+        android:layout_marginTop="30dp"
+        android:text="Recicler view"
+        android:backgroundTint="@android:color/holo_purple"
+        app:layout_constraintTop_toBottomOf="@id/btComponent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

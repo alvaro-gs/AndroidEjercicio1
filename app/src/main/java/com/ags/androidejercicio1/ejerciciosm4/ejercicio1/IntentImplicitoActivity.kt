@@ -1,4 +1,4 @@
-package com.ags.androidejercicio1.ejerciciosm4
+package com.ags.androidejercicio1.ejerciciosm4.ejercicio1
 
 import android.content.Intent
 import android.net.Uri

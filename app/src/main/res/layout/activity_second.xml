@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ejerciciosm4.SecondActivity">
+    tools:context=".ejerciciosm4.ejercicio1.SecondActivity">
 
     <TextView
         android:id="@+id/tvName"
