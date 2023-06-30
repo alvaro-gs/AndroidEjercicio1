@@ -8,6 +8,7 @@ import com.ags.androidejercicio1.R
 import com.ags.androidejercicio1.ejerciciosm4.ejercicio1.FirstActivity
 import com.ags.androidejercicio1.ejerciciosm4.ejercicio1.Home1Activity
 import com.ags.androidejercicio1.ejerciciosm4.ejercicio2.Home2Activity
+import com.ags.androidejercicio1.ejerciciosm4.tarea.RegisterActivity
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +26,13 @@ class HomeActivity : AppCompatActivity() {
 
         btStart2.setOnClickListener {
             val intent = Intent(this, Home2Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btHw = findViewById<Button>(R.id.btStartHw)
+
+        btHw.setOnClickListener {
+            val intent = Intent(this,RegisterActivity::class.java)
             startActivity(intent)
         }
 

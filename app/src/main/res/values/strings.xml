@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidEjercicio1</string>
+    <string name="datos">%1s : %2s</string>
+    <string name="error">Favor de llenar el campo</string>
 </resources>
